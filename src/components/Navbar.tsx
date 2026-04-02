@@ -66,11 +66,11 @@ const Navbar = () => {
   return (
     <>
       <div className="header">
-        <a href="/#" className="navbar-title" data-cursor="disable">
-          Logo
+        <a href="/" className="navbar-title" data-cursor="disable">
+          Usman.dev
         </a>
         <a
-          href="mailto:redoyanul1234@gmail.com"
+          href="mailto:usman4243ch@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >

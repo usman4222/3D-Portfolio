@@ -3,6 +3,13 @@ import { config } from "../config";
 import "./MyWorks.css";
 
 const MyWorks = () => {
+  // Handle project click
+  const handleProjectClick = (link: string) => {
+    if (link) {
+      window.open(link, "_blank"); // Opens in new tab
+    }
+  };
+
   return (
     <div className="myworks-page">
       <div className="myworks-header">
@@ -17,7 +24,12 @@ const MyWorks = () => {
 
       <div className="myworks-grid">
         {config.projects.map((project, index) => (
-          <div className="myworks-card" key={project.id} data-cursor="disable">
+          <div
+            className="myworks-card myworks-card-clickable"
+            key={project.id}
+            onClick={() => handleProjectClick(project.link)}
+            style={{ cursor: project.link ? "pointer" : "default" }}
+          >
             <div className="myworks-card-number">0{index + 1}</div>
             <div className="myworks-card-image">
               <img src={project.image} alt={project.title} />
@@ -27,6 +39,11 @@ const MyWorks = () => {
               <p className="myworks-card-category">{project.category}</p>
               <p className="myworks-card-description">{project.description}</p>
               <p className="myworks-card-tech">{project.technologies}</p>
+              {project.link && (
+                <div className="project-link-indicator">
+                  🔗 Click to view project
+                </div>
+              )}
             </div>
           </div>
         ))}

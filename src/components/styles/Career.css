@@ -269,3 +269,157 @@
     justify-content: left;
   }
 }
+/* Total Experience Badge */
+.total-experience-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 0.5rem 1.25rem;
+  border-radius: 50px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.total-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.total-value {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.25rem 0.75rem;
+  border-radius: 30px;
+}
+
+/* Company Location */
+.company-location {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: #666;
+  margin-top: 0.25rem;
+  font-weight: normal;
+}
+
+/* Period Display */
+.period-container {
+  text-align: right;
+}
+
+.period-year {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #667eea;
+  margin: 0;
+}
+
+.period-full {
+  font-size: 0.75rem;
+  color: #888;
+  display: block;
+  margin-top: 0.25rem;
+}
+
+/* Tech Stack Section */
+.tech-stack {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.tech-stack-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.tech-icon {
+  font-size: 0.875rem;
+}
+
+.tech-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #666;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: #f0f0f0;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.2s ease;
+}
+
+.tech-tag:hover {
+  background: #667eea;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .company-location {
+    color: #aaa;
+  }
+  
+  .period-full {
+    color: #777;
+  }
+  
+  .tech-stack {
+    border-top-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .tech-label {
+    color: #aaa;
+  }
+  
+  .tech-tag {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ddd;
+  }
+  
+  .tech-tag:hover {
+    background: #667eea;
+    color: white;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .total-experience-badge {
+    padding: 0.375rem 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .total-value {
+    font-size: 0.875rem;
+  }
+  
+  .period-container {
+    text-align: left;
+    margin-top: 0.5rem;
+  }
+  
+  .career-info-in {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+}

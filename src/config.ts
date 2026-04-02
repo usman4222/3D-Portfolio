@@ -1,193 +1,259 @@
 export const config = {
-    developer: {
-        name: "Rana Usman",
-        fullName: "Rana Usman Ghani",
-        title: "MERN Stack Developer",
-        description: "MERN Stack Developer skilled in MongoDB, Express.js, React.js, and Node.js. I build modern, scalable, and performance-driven web applications with clean code and great user experience."
+  developer: {
+    name: "Rana Usman",
+    fullName: "Rana Usman Ghani",
+    title: "MERN Stack Developer",
+    description:
+      "MERN Stack Developer skilled in MongoDB, Express.js, React.js, and Node.js. I build modern, scalable, and performance-driven web applications with clean code and great user experience.",
+  },
+  social: {
+    github: "usman4222",
+    email: "usman4243ch@gmail.com",
+    location: "Pakistan",
+  },
+  about: {
+    title: "About Me",
+    description:
+      "I’m a MERN Stack Developer focused on delivering reliable, scalable, and business-ready web applications. I help startups and businesses turn their ideas into fully functional products using modern JavaScript technologies.",
+  },
+  experiences: [
+    {
+      position: "MERN Stack Developer",
+      company: "Wixpa Pvt Ltd.",
+      period: "12-2024 - 3-2026",
+      location: "Sargodha, Pakistan",
+      description:
+        "Led full-stack development of enterprise-level web applications, architecting scalable MERN solutions that served 10,000+ monthly active users. Implemented real-time features, optimized database queries reducing response time by 40%, and mentored junior developers in best practices and modern development workflows.",
+      responsibilities: [
+        "Architected and developed 5+ production-ready MERN applications from scratch",
+        "Optimized MongoDB aggregation pipelines reducing API response time by 40%",
+        "Implemented JWT authentication, role-based access control, and real-time features using Socket.io",
+        "Led code reviews, mentored 2 junior developers, and established coding standards",
+        "Integrated third-party APIs including payment gateways (Stripe) and cloud services (AWS S3)",
+        "Reduced bundle size by 35% using code splitting and lazy loading in React",
+      ],
+      technologies: [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Socket.io",
+        "JWT",
+        "AWS S3",
+        "Stripe",
+        "Redux Toolkit",
+        "TailwindCSS",
+      ],
     },
-    social: {
-        github: "usman4222",
-        email: "usman4243ch@gmail.com",
-        location: "Pakistan"
+    {
+      position: "MERN Stack Developer",
+      company: "Enfotrix Pvt Ltd.",
+      period: "4-2024 - 11-2024",
+      location: "Sargodha, Pakistan",
+      description:
+        "Specialized in developing AI-powered solutions and intelligent chatbots. Built production-ready LLM-based applications, fine-tuned transformer models for specific use cases, and created conversational AI agents that reduced customer support response time by 60%. Integrated machine learning models into web applications for real-time predictions.",
+      responsibilities: [
+        "Developed and deployed 3 production AI chatbots with 95% intent recognition accuracy",
+        "Fine-tuned Llama 2 and GPT-based models for domain-specific customer support",
+        "Built RAG (Retrieval-Augmented Generation) pipelines using Pinecone and LangChain",
+        "Created real-time sentiment analysis and named entity recognition systems",
+        "Implemented model serving using FastAPI with 100ms inference time",
+        "Reduced support ticket volume by 45% through automated AI responses",
+      ],
+      technologies: [
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "LangChain",
+        "Pinecone",
+        "FastAPI",
+        "Transformers",
+        "Hugging Face",
+        "OpenAI API",
+        "Redis",
+        "Docker",
+      ],
     },
-    about: {
-        title: "About Me",
-        description: "I’m a MERN Stack Developer focused on delivering reliable, scalable, and business-ready web applications. I help startups and businesses turn their ideas into fully functional products using modern JavaScript technologies."
+    {
+      position: "Full Stack MERN Developer",
+      company: "Soriic Pvt Ltd.",
+      period: "11-2023 - 4-2024",
+      location: "Sargodha, Pakistan",
+      description:
+        "Built complete end-to-end web applications for diverse clients including e-commerce platforms, content management systems, and business dashboards. Collaborated with cross-functional teams to deliver 8+ projects within tight deadlines. Ensured responsive design, cross-browser compatibility, and optimal performance across all devices.",
+      responsibilities: [
+        "Delivered 8+ full-stack projects with 100% client satisfaction",
+        "Built scalable REST APIs handling 5,000+ concurrent requests",
+        "Implemented responsive UIs using React with TailwindCSS and Material-UI",
+        "Set up CI/CD pipelines using GitHub Actions and deployed on Vercel/Railway",
+        "Reduced page load time by 50% through image optimization and lazy loading",
+        "Integrated MongoDB Atlas with change streams for real-time data synchronization",
+      ],
+      technologies: [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Material-UI",
+        "JWT",
+        "Git",
+        "GitHub Actions",
+      ],
     },
-    experiences: [
-        {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
-            responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
-            ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
-        },
-        {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
-            period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
-            responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
-            ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
-        },
-        {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
-            period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
-            responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
-            ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
-        },
-        {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
-            responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
-            ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
-        }
-    ],
-    projects: [
-        {
-            id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
-            image: "/images/drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali."
-        },
-        {
-            id: 2,
-            title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
-            image: "/images/votechain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking."
-        },
-        {
-            id: 3,
-            title: "EIE - Earthquake Impact Estimator",
-            category: "IoT / Hardware",
-            technologies: "Arduino, C++, IoT Sensors, Python, ML, React",
-            image: "/images/eie.png",
-            description: "A practical circuit-based IoT system utilizing Arduino to predict earthquakes before they strike. Integrates hardware sensors for real-time seismic detection and impact estimation."
-        },
-        {
-            id: 4,
-            title: "GameKroy",
-            category: "Full Stack",
-            technologies: "React, Node.js, MongoDB, Express, Stripe, TailwindCSS",
-            image: "/images/gamekroy.png",
-            description: "A full-featured e-commerce platform for gaming products. Includes user authentication, product catalog, shopping cart, secure payments, order tracking, and admin dashboard."
-        },
-        {
-            id: 5,
-            title: "RedxChess",
-            category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
-            image: "/images/redxchess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation."
-        },
-        {
-            id: 6,
-            title: "Floodhub",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/floodhub.png",
-            description: "A flood prediction model specifically designed for Bangladesh's river systems. Analyzes weather patterns, water levels, and historical data to provide accurate flood forecasts and alerts."
-        },
-        {
-            id: 7,
-            title: "Phoenix",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/phoenix.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience."
-        },
-        {
-            id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes."
-        }
-    ],
-    contact: {
-        email: "usman4243ch@gmail.com",
-        github: "https://github.com/usman4222",
-        linkedin: "https://www.linkedin.com/in/rana-usman42/",
-        twitter: "https://x.com/",
-        facebook: "https://www.facebook.com/",
-        instagram: "https://www.instagram.com/ranausman9174/"
+    {
+      position: "Self-Taught Developer",
+      company: "Self-Taught & Projects",
+      period: "3-2022 - 9-2023",
+      location: "Sargodha, Pakistan",
+      description:
+        "Self-directed learning journey mastering full-stack development fundamentals. Built 15+ personal projects including automation tools, web scrapers, and Discord bots. Developed strong problem-solving skills through competitive programming and open-source contributions. Established solid foundation in algorithms, data structures, and software design patterns.",
+      responsibilities: [
+        "Completed 200+ hours of coding challenges on LeetCode and HackerRank",
+        "Built 15+ personal projects including e-commerce site, blog platform, and task manager",
+        "Contributed to 5 open-source repositories on GitHub",
+        "Created automation scripts saving 20+ hours of manual work per week",
+        "Developed Discord bots serving 1,000+ active users",
+        "Learned version control with Git and collaborative development workflows",
+      ],
+      technologies: [
+        "JavaScript",
+        "Python",
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git",
+        "Discord.py",
+        "Puppeteer",
+        "Cheerio",
+        "LeetCode",
+        "VS Code",
+      ],
     },
-    skills: {
-        develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
-        },
-        design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
-        }
-    }
+  ],
+  projects: [
+    {
+      id: 1,
+      title: "ETHIKA Swiss Trade Solutions",
+      category: "Frontend",
+      technologies:
+        "React, TypeScript, Vite, TailwindCSS, Framer Motion, Shadcn UI, i18next ",
+      image: "/images/p1.png",
+      description:
+        "Customs risk management for global trade. ETHIKA helps growing companies identify regulatory exposure, strengthen trade operations, and build proactive customs governance before authorities step in.",
+      link: "https://ethikaswisstradesolutions.com/",
+    },
+    {
+      id: 2,
+      title: "Khawaja Sons",
+      category: "Full Stack",
+      technologies:
+        "React, Vite, Node.js, Express.js, MongoDB, TailwindCSS, JWT, Zustand, Zod, Axios",
+      image: "/images/p7.png",
+      description:
+        "A full-featured enterprise solution for pharmaceutical distributors featuring real-time inventory tracking, sales/purchase management, employee oversight, and detailed analytics—all wrapped in a modern, responsive React interface.",
+      link: "https://pharma-frontend-five.vercel.app/dashboard",
+    },
+    {
+      id: 3,
+      title: "Ummaiti Quran",
+      category: "Full Stack",
+      technologies:
+        "React, TypeScript, Vite TailwindCSS, Shadcn UI, Framer Motion",
+      image: "/images/p3.png",
+      description:
+        "Master the Holy Quran with Excellence — An interactive e-learning platform connecting students worldwide with certified Quran teachers for recitation, Tajweed, Arabic, and Islamic studies in a modern digital environment.",
+      link: "https://www.ummatiquran.com/",
+    },
+    {
+      id: 4,
+      title: "Office Management System",
+      category: "Full Stack",
+      technologies: "React, Node.js, Express.js, MongoDB, Jwt, CSS, Axios",
+      image: "/images/p8.png",
+      description:
+        "Built a comprehensive office management system that streamlines daily business operations. I created a full-featured platform managing employees, users, attendance tracking, revenue monitoring, and expense management — all in one centralized dashboard.",
+      link: "https://sms-v2.vercel.app/",
+    },
+    {
+      id: 5,
+      title: "Essenctia ",
+      category: "Frontend",
+      technologies: "React, TailwindCSS, Vite, Framer Motion",
+      image: "/images/p5.png",
+      description:
+        "Developed a corporate brand website for Essenctia using React and TailwindCSS. Features include service showcases, company values, flavor innovation highlights, and contact integration — designed to build trust with food industry clients.",
+      link: "https://essenctia.com/",
+    },
+    {
+      id: 6,
+      title: "OVA Investment",
+      category: "Frontend",
+      technologies: "HTML, CSS, JavaScript, Three.js, GSAP,",
+      image: "/images/p6.png",
+      description:
+        "Developed a technology investment brand website for OVA. Built with React and TailwindCSS to communicate their mission of identifying breakthrough opportunities in the tech sector.",
+      link: "https://ova-investment-3-d-website.vercel.app/",
+    },
+    {
+      id: 7,
+      title: "Shopify Component Library",
+      category: "Frontend",
+      technologies:
+        "React, TypeScript, Radix UI, TailwindCSS , Framer Motion, Sonner",
+      image: "/images/p2.png",
+      description:
+        "Open-source Shopify component library providing pre-built Liquid sections and UI components that help developers build custom Shopify stores 10× faster — just copy, customize, and paste.",
+      link: "https://shopify-component-library.vercel.app/",
+    },
+    {
+      id: 8,
+      title: "Clips Agency",
+      category: "Full Stack",
+      technologies: "React, TypeScript, Vite TailwindCSS, Framer Motion",
+      image: "/images/p4.png",
+      description:
+        "Built a high-converting agency website for video editing services. I created a modern platform featuring viral clip showcases, service packages, video portfolios, and seamless contact integration — helping the agency attract busy creators.",
+      link: "https://clips-agency.vercel.app/",
+    },
+    {
+      id: 9,
+      title: "Coin Maths",
+      category: "Full Stack",
+      technologies: "React, Firebase, Vite TailwindCSS",
+      image: "/images/p9.png",
+      description:
+        "Developed a responsive brand website for CoinMath using React and TailwindCSS. Features include protocol explanation, blockchain integration highlights, and community-focused messaging for a Web3 audience.",
+      link: "https://github.com/usman4222/Coin-Math-User",
+    },
+  ],
+  contact: {
+    email: "usman4243ch@gmail.com",
+    github: "https://github.com/usman4222",
+    linkedin: "https://www.linkedin.com/in/rana-usman42/",
+    twitter: "https://x.com/",
+    facebook: "https://www.facebook.com/",
+    instagram: "https://www.instagram.com/ranausman9174/",
+  },
+  skills: {
+    develop: {
+      title: "MERN STACK DEVELOPER",
+      description: "Modern web development & scalable applications",
+      details:
+        "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
+      tools: [
+        "React",
+        "Next.js",
+        "Node.js",
+        "TypeScript",
+        "MongoDB",
+        "TailwindCSS",
+        "REST APIs",
+        "Git",
+      ],
+    },
+  },
 };
-
-

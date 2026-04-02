@@ -58,6 +58,14 @@ const Work = () => {
       ScrollTrigger.getById("work")?.kill();
     };
   }, []);
+
+  // Handle project click
+  const handleProjectClick = (link: string) => {
+    if (link) {
+      window.open(link, "_blank"); // Opens in new tab
+    }
+  };
+
   return (
     <div className="work-section" id="work">
       <div className="work-container section-container">
@@ -66,11 +74,15 @@ const Work = () => {
         </h2>
         <div className="work-flex">
           {config.projects.slice(0, 5).map((project, index) => (
-            <div className="work-box" key={project.id}>
+            <div
+              className="work-box work-box-clickable"
+              key={project.id}
+              onClick={() => handleProjectClick(project.link)}
+              style={{ cursor: project.link ? "pointer" : "default" }}
+            >
               <div className="work-info">
                 <div className="work-title">
                   <h3>0{index + 1}</h3>
-
                   <div>
                     <h4>{project.title}</h4>
                     <p>{project.category}</p>
