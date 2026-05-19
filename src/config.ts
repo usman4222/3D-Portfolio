@@ -20,7 +20,7 @@ export const config = {
     {
       position: "MERN Stack Developer",
       company: "Wixpa Pvt Ltd.",
-      period: "12-2024 - 3-2026",
+      period: "12-2024 - 4-2026",
       location: "Sargodha, Pakistan",
       description:
         "Led full-stack development of enterprise-level web applications, architecting scalable MERN solutions that served 10,000+ monthly active users. Implemented real-time features, optimized database queries reducing response time by 40%, and mentored junior developers in best practices and modern development workflows.",
@@ -48,7 +48,7 @@ export const config = {
     {
       position: "MERN Stack Developer",
       company: "Enfotrix Pvt Ltd.",
-      period: "4-2024 - 11-2024",
+      period: "11-2023 - 11-2024",
       location: "Sargodha, Pakistan",
       description:
         "Specialized in developing AI-powered solutions and intelligent chatbots. Built production-ready LLM-based applications, fine-tuned transformer models for specific use cases, and created conversational AI agents that reduced customer support response time by 60%. Integrated machine learning models into web applications for real-time predictions.",
@@ -72,35 +72,6 @@ export const config = {
         "OpenAI API",
         "Redis",
         "Docker",
-      ],
-    },
-    {
-      position: "Full Stack MERN Developer",
-      company: "Soriic Pvt Ltd.",
-      period: "11-2023 - 4-2024",
-      location: "Sargodha, Pakistan",
-      description:
-        "Built complete end-to-end web applications for diverse clients including e-commerce platforms, content management systems, and business dashboards. Collaborated with cross-functional teams to deliver 8+ projects within tight deadlines. Ensured responsive design, cross-browser compatibility, and optimal performance across all devices.",
-      responsibilities: [
-        "Delivered 8+ full-stack projects with 100% client satisfaction",
-        "Built scalable REST APIs handling 5,000+ concurrent requests",
-        "Implemented responsive UIs using React with TailwindCSS and Material-UI",
-        "Set up CI/CD pipelines using GitHub Actions and deployed on Vercel/Railway",
-        "Reduced page load time by 50% through image optimization and lazy loading",
-        "Integrated MongoDB Atlas with change streams for real-time data synchronization",
-      ],
-      technologies: [
-        "React",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Next.js",
-        "TypeScript",
-        "TailwindCSS",
-        "Material-UI",
-        "JWT",
-        "Git",
-        "GitHub Actions",
       ],
     },
     {
