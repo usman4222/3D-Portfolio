@@ -20,8 +20,8 @@ export const config = {
     {
       position: "MERN Stack Developer",
       company: "Wixpa Pvt Ltd.",
-      period: "12-2024 - 4-2026",
-      location: "Sargodha, Pakistan",
+      period: "12-2024 - Present",
+      location: "Lahore, Pakistan",
       description:
         "Led full-stack development of enterprise-level web applications, architecting scalable MERN solutions that served 10,000+ monthly active users. Implemented real-time features, optimized database queries reducing response time by 40%, and mentored junior developers in best practices and modern development workflows.",
       responsibilities: [
@@ -49,7 +49,7 @@ export const config = {
       position: "MERN Stack Developer",
       company: "Enfotrix Pvt Ltd.",
       period: "11-2023 - 11-2024",
-      location: "Sargodha, Pakistan",
+      location: "Lahore, Pakistan",
       description:
         "Specialized in developing AI-powered solutions and intelligent chatbots. Built production-ready LLM-based applications, fine-tuned transformer models for specific use cases, and created conversational AI agents that reduced customer support response time by 60%. Integrated machine learning models into web applications for real-time predictions.",
       responsibilities: [
@@ -78,7 +78,7 @@ export const config = {
       position: "Self-Taught Developer",
       company: "Self-Taught & Projects",
       period: "3-2022 - 9-2023",
-      location: "Sargodha, Pakistan",
+      location: "Lahore, Pakistan",
       description:
         "Self-directed learning journey mastering full-stack development fundamentals. Built 15+ personal projects including automation tools, web scrapers, and Discord bots. Developed strong problem-solving skills through competitive programming and open-source contributions. Established solid foundation in algorithms, data structures, and software design patterns.",
       responsibilities: [
@@ -108,6 +108,17 @@ export const config = {
   projects: [
     {
       id: 1,
+      title: "SkyRise Future",
+      category: "Full Stack",
+      technologies:
+        "React, TypeScript, Vite, TanStack Router, Zustand, TanStack Query, Node.js, Express, MongoDB, Mongoose, Firebase",
+      image: "/images/skyrise.png",
+      description:
+        "The SkyRise Frontend is a premium, highly responsive user portal built using React, TypeScript, and Vite. It utilizes TanStack Router for type-safe routing, Zustand for lightweight persistent client state, and TanStack Query (React Query) for smart data-caching and real-time updates. The interface features a sleek dark mode dashboard, interactive a\n\nThe SkyRise Backend is an enterprise-grade REST API server built on Node.js and Express, using MongoDB with Mongoose for transactional ledger bookkeeping. It features Firebase Admin JWT token validation, real-time ROI distribution jobs, and a 5-level MLM referral commission hierarchy that tracks direct referral incomes, level ROI splits, and downli",
+      link: "",
+    },
+    {
+      id: 2,
       title: "ETHIKA Swiss Trade Solutions",
       category: "Frontend",
       technologies:
@@ -118,7 +129,7 @@ export const config = {
       link: "https://ethikaswisstradesolutions.com/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Khawaja Sons",
       category: "Full Stack",
       technologies:
@@ -129,7 +140,7 @@ export const config = {
       link: "https://pharma-frontend-five.vercel.app/dashboard",
     },
     {
-      id: 3,
+      id: 4,
       title: "Ummaiti Quran",
       category: "Full Stack",
       technologies:
@@ -140,7 +151,7 @@ export const config = {
       link: "https://www.ummatiquran.com/",
     },
     {
-      id: 4,
+      id: 5,
       title: "Office Management System",
       category: "Full Stack",
       technologies: "React, Node.js, Express.js, MongoDB, Jwt, CSS, Axios",
@@ -150,7 +161,7 @@ export const config = {
       link: "https://sms-v2.vercel.app/",
     },
     {
-      id: 5,
+      id: 6,
       title: "Essenctia ",
       category: "Frontend",
       technologies: "React, TailwindCSS, Vite, Framer Motion",
@@ -160,7 +171,7 @@ export const config = {
       link: "https://essenctia.com/",
     },
     {
-      id: 6,
+      id: 7,
       title: "OVA Investment",
       category: "Frontend",
       technologies: "HTML, CSS, JavaScript, Three.js, GSAP,",
@@ -170,7 +181,7 @@ export const config = {
       link: "https://ova-investment-3-d-website.vercel.app/",
     },
     {
-      id: 7,
+      id: 8,
       title: "Shopify Component Library",
       category: "Frontend",
       technologies:
@@ -181,7 +192,7 @@ export const config = {
       link: "https://shopify-component-library.vercel.app/",
     },
     {
-      id: 8,
+      id: 9,
       title: "Clips Agency",
       category: "Full Stack",
       technologies: "React, TypeScript, Vite TailwindCSS, Framer Motion",
@@ -191,7 +202,7 @@ export const config = {
       link: "https://clips-agency.vercel.app/",
     },
     {
-      id: 9,
+      id: 10,
       title: "Coin Maths",
       category: "Full Stack",
       technologies: "React, Firebase, Vite TailwindCSS",
